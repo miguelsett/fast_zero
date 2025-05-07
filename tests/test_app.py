@@ -10,7 +10,7 @@ def test_root_deve_retornar_ok_e_ola_mundo(client):
 
 def test_create_user(client):
     response = client.post(
-        '/users/',
+        '/users',
         json={
             'username': 'alice',
             'email': 'alice@example.com',
