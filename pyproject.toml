@@ -41,7 +41,7 @@ quote-style = 'single'
 
 [tool.ruff.lint]
 preview = true
-select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+select = ['I', 'F', 'E', 'W', 'PL', 'PT', 'FAST']
 
 [tool.taskipy.tasks]
 lint = 'ruff check'
